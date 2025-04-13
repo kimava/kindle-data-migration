@@ -3,3 +3,4 @@ data/*.csv
 db/*.db
 venv/
 __pycache__/
+.env
