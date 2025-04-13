@@ -1,0 +1,5 @@
+# Ignore raw data and SQLite DB
+data/*.csv
+db/*.db
+venv/
+__pycache__/
