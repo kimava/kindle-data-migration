@@ -38,9 +38,7 @@ python scripts/load_from_csv_to_snowflake.py
 
 
 ## 📊 Downstream Views (for reporting)
-- Top Selling Categories: ```sql/views/top_selling_categories.sql```
-
-- Bestsellers by Review Count: ```sql/views/best_sellers_by_reviews.sql```
+TBU
 
 These views simulate data marts for analytics and can be visualised in Tableau.
 
