@@ -6,7 +6,7 @@ import snowflake.connector
 load_dotenv()
 
 # Absolute path to the CSV file
-csv_path = os.path.abspath("data/cleaned_kindle_data.csv")
+csv_path = os.path.abspath("data/raw/cleaned_kindle_data.csv")
 
 # Connect to Snowflake
 conn = snowflake.connector.connect(

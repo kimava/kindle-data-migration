@@ -2,8 +2,8 @@ import pandas as pd
 from pathlib import Path
 
 # File paths
-RAW_DATA_PATH = Path("data/kindle_data.csv")
-CLEANED_DATA_PATH = Path("data/cleaned_kindle_data.csv")
+RAW_DATA_PATH = Path("data/raw/kindle_data.csv")
+CLEANED_DATA_PATH = Path("data/raw/cleaned_kindle_data.csv")
 
 # Load the raw dataset
 df = pd.read_csv(RAW_DATA_PATH)
