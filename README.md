@@ -38,9 +38,36 @@ python scripts/load_from_csv_to_snowflake.py
 
 
 ## 📊 Downstream Views (for reporting)
-TBU
+The following Snowflake views were created for downstream consumption and analysis:
 
-These views simulate data marts for analytics and can be visualised in Tableau.
+- ```top_performing_books```
+
+- ```category_performance_summary```
+
+- ```kindle_unlimited_vs_non_kindle_unlimited_comparison```
+
+- ```label_performance_summary```
+
+- ```publishing_trends_by_month```
+
+## 📈 Tableau Dashboard
+The final dashboard was built using the above Snowflake views and exported as CSV to support visual storytelling.
+It highlights key performance patterns across books, categories, subscription inclusion, and publishing trends.
+
+### 💡 Key Insights Visualised:
+**📚 Top 50 Books** – Most-reviewed and highest-rated titles
+
+**🗂 Performance by Category** – Stars, price, Kindle Unlimited %, and review stats per category
+
+**🔄 Kindle Unlimited vs Non-Kindle Unlimited** – Subscription impact on stars, price, and bestseller rate
+
+**🏷 Performance by Label** – Impact of being a Bestseller, Editor’s Pick, or Goodreads Choice
+
+**📅 Publishing Trends** – Book release volume and average rating over time (2020.09–2023.09)
+
+🔗 View [the Dashboard](https://public.tableau.com/app/profile/soyeon.kim4151/viz/AmazonKindleBookDataDashboard/AmazonKindleBooksDashboard) on Tableau Public
+
+
 
 
 ## 💡 Key Takeaways
@@ -49,3 +76,5 @@ These views simulate data marts for analytics and can be visualised in Tableau.
 - Focused on data type consistency, validation, and schema clarity for downstream use.
 
 - Simulated both engineering and analytics use cases, preparing the data for dashboards.
+
+- Completed end-to-end pipeline from ingestion → modelling → visualisation.
